@@ -8,7 +8,7 @@
 ' </auto-generated>
 '------------------------------------------------------------------------------
 
-#Disable Warning 1591
+'#Disable Warning 1591
 
 Namespace MultiUserOutlookSync
 
@@ -1954,4 +1954,4 @@ Namespace MultiUserOutlookSync.DataSet1TableAdapters
     End Class
 End Namespace
 
-#Enable Warning 1591
+'#Enable Warning 1591
