@@ -4,7 +4,7 @@
     <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
       <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
         <Connections>
-          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="UserScheduleConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="UserScheduleConnectionString (Settings)" PropertyReference="ApplicationSettings.MultiUserOutlookSync.Properties.Settings.GlobalReference.Default.UserScheduleConnectionString" Provider="System.Data.OleDb">
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="UserScheduleConnectionString" ConnectionStringObject="" IsAppSettingsProperty="True" Modifier="Assembly" Name="UserScheduleConnectionString (Settings)" PropertyReference="ApplicationSettings.Settings.GlobalReference.Default.UserScheduleConnectionString" Provider="System.Data.OleDb">
           </Connection>
         </Connections>
         <Tables>

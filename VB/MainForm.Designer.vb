@@ -31,13 +31,13 @@ Namespace MultiUserOutlookSync
 			Me.schedulerControl1 = New DevExpress.XtraScheduler.SchedulerControl()
 			Me.schedulerStorage1 = New DevExpress.XtraScheduler.SchedulerStorage(Me.components)
 			Me.scheduleBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.dataSet1 = New MultiUserOutlookSync.DataSet1()
-			Me.panel1 = New System.Windows.Forms.Panel()
+            Me.dataSet1 = New DataSet1()
+            Me.panel1 = New System.Windows.Forms.Panel()
 			Me.label1 = New System.Windows.Forms.Label()
 			Me.btnExport = New System.Windows.Forms.Button()
 			Me.btnImport = New System.Windows.Forms.Button()
-			Me.scheduleTableAdapter = New MultiUserOutlookSync.DataSet1TableAdapters.ScheduleTableAdapter()
-			CType(Me.schedulerControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            Me.scheduleTableAdapter = New DataSet1TableAdapters.ScheduleTableAdapter()
+            CType(Me.schedulerControl1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.schedulerStorage1, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.scheduleBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.dataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -159,8 +159,8 @@ Namespace MultiUserOutlookSync
 		Private WithEvents btnImport As System.Windows.Forms.Button
 		Private dataSet1 As DataSet1
 		Private scheduleBindingSource As System.Windows.Forms.BindingSource
-		Private scheduleTableAdapter As MultiUserOutlookSync.DataSet1TableAdapters.ScheduleTableAdapter
-		Private label1 As System.Windows.Forms.Label
+        Private scheduleTableAdapter As DataSet1TableAdapters.ScheduleTableAdapter
+        Private label1 As System.Windows.Forms.Label
 	End Class
 End Namespace
 

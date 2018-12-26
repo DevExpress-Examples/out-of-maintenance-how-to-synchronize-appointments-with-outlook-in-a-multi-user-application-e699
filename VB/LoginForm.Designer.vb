@@ -28,10 +28,10 @@ Namespace MultiUserOutlookSync
 			Me.components = New System.ComponentModel.Container()
 			Me.comboBox1 = New System.Windows.Forms.ComboBox()
 			Me.usersBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-			Me.dataSet1 = New MultiUserOutlookSync.DataSet1()
-			Me.simpleButton1 = New DevExpress.XtraEditors.SimpleButton()
-			Me.usersTableAdapter = New MultiUserOutlookSync.DataSet1TableAdapters.UsersTableAdapter()
-			CType(Me.usersBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+            Me.dataSet1 = New DataSet1()
+            Me.simpleButton1 = New DevExpress.XtraEditors.SimpleButton()
+            Me.usersTableAdapter = New DataSet1TableAdapters.UsersTableAdapter()
+            CType(Me.usersBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
 			CType(Me.dataSet1, System.ComponentModel.ISupportInitialize).BeginInit()
 			Me.SuspendLayout()
 			' 
@@ -91,6 +91,6 @@ Namespace MultiUserOutlookSync
 		Private WithEvents simpleButton1 As DevExpress.XtraEditors.SimpleButton
 		Private dataSet1 As DataSet1
 		Private usersBindingSource As System.Windows.Forms.BindingSource
-		Private usersTableAdapter As MultiUserOutlookSync.DataSet1TableAdapters.UsersTableAdapter
-	End Class
+        Private usersTableAdapter As DataSet1TableAdapters.UsersTableAdapter
+    End Class
 End Namespace
